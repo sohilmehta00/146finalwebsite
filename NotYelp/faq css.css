@@ -1,0 +1,30 @@
+.nav {
+	overflow: hidden;
+	background-color: #FF7F50;
+}
+
+.nav a {
+	color: white;
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.nav a.AboutUsNav {
+	float: right;
+}
+
+.nav a:hover {
+	color: black;
+  background-color: #FFBF00;
+}
+body {
+    margin: 0;
+    background-color: #fffdd0;
+  }
+  h1 {
+    font-size: 53px;
+    font-family: cursive;
+    background-color: #dad870;

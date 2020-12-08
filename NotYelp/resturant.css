@@ -1,0 +1,359 @@
+@media only screen and (min-width:769px) {
+html {
+	background-color: #fffdd0;
+}
+
+.header {
+	text-align: center;
+	background: #DAD870;
+	padding: 30px;
+}
+
+.nav {
+	overflow: hidden;
+	background-color: #FF7F50;
+}
+
+.nav a {
+	color: white;
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.nav a.AboutUsNav {
+	float: right;
+}
+
+.nav a:hover {
+	color: black;
+	background-color: #FFBF00;
+}
+
+.resturantname {
+	line-height: 50%;
+	text-align: center;
+	background-color: #FFBF00;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.side {
+	flex: 30%;
+	background-color:  #DAD870;
+	padding: 20px;
+}
+
+.pic {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 350px;
+	height: 200px;
+}
+
+.main {
+	flex: 70%;
+	background-color: #FF7F50;
+	padding: 20px;
+}
+
+.checked {
+  color: orange;
+}
+
+.footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #FFBF00;
+}
+
+.des {
+	font-size: 20px;
+	overflow: scroll;
+	display: scroll;
+	padding: 10px;
+	height: 180px;
+	background-color: #DAD870;
+}
+
+.addy {
+	padding: 10px;
+	height: 40px;
+	background-color: #FF7F50;
+}
+
+#review {
+	overflow: scroll;
+	display: none;
+	padding: 10px;
+	height: 100px;
+	background-color: white;
+}
+
+.pricerange {
+	padding: 10px;
+	background-color: #FF7F50;
+	height: 40px;
+}
+
+.submit {
+	display:block;
+}
+
+#review1 {
+	height: 80px;
+	width: 100%;
+}
+]
+}
+@media only screen and (min-width:481px) and (max-width: 768px) {
+html {
+	background-color: #fffdd0;
+}
+.header {
+	text-align: center;
+	background: #DAD870;
+	padding: 30px;
+}
+
+.nav {
+	overflow: hidden;
+	background-color: #FF7F50;
+}
+
+.nav a {
+	color: white;
+	float: none;
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+
+}
+
+.nav a.AboutUsNav {
+	float: right;
+}
+
+.nav a:hover {
+	color: black;
+	background-color: #FFBF00;
+}
+
+.resturantname {
+	line-height: 50%;
+	text-align: center;
+	background-color: #FFBF00;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.side {
+	flex: 30%;
+	background-color:  #DAD870;
+	padding: 20px;
+}
+
+.pic {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 350px;
+	height: 200px;
+}
+
+.main {
+	flex: 70%;
+	background-color: #FF7F50;
+	padding: 20px;
+}
+
+.checked {
+  color: orange;
+}
+
+.footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #FFBF00;
+}
+
+.des {
+	font-size: 20px;
+	overflow: scroll;
+	display: scroll;
+	padding: 10px;
+	height: 180px;
+	background-color: #DAD870;
+}
+
+.addy {
+	padding: 10px;
+	height: 40px;
+	background-color: #FF7F50;
+}
+
+#review {
+	overflow: scroll;
+	display: none;
+	padding: 10px;
+	height: 100px;
+	background-color: white;
+}
+
+.pricerange {
+	padding: 10px;
+	background-color: #FF7F50;
+	height: 40px;
+}
+
+.submit {
+	display:block;
+}
+
+#review1 {
+	height: 80px;
+	width: 100%;
+}
+}
+@media only screen and (max-width:480px) {
+html {
+	background-color: #fffdd0;
+}	
+.header {
+	text-align: center;
+	background: #DAD870;
+	padding: 30px;
+}
+
+.nav {
+	overflow: hidden;
+	background-color: #FF7F50;
+}
+
+.nav a {
+	color: white;
+	float: none;
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.nav a.AboutUsNav {
+	float: right;
+}
+
+.nav a:hover {
+	color: black;
+	background-color: #FFBF00;
+}
+
+.resturantname {
+	line-height: 50%;
+	text-align: center;
+	background-color: #FFBF00;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.side {
+	flex: 30%;
+	background-color:  #DAD870;
+	padding: 20px;
+}
+
+.pic {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 350px;
+	height: 200px;
+}
+
+.main {
+	flex: 70%;
+	background-color: #FF7F50;
+	padding: 20px;
+}
+
+.checked {
+  color: orange;
+}
+
+.footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #FFBF00;
+}
+
+.des {
+	font-size: 20px;
+	overflow: scroll;
+	display: scroll;
+	padding: 10px;
+	height: 180px;
+	background-color: #DAD870;
+}
+
+.addy {
+	padding: 10px;
+	height: 40px;
+	background-color: #FF7F50;
+}
+
+#review {
+	overflow: scroll;
+	display: none;
+	padding: 10px;
+	height: 100px;
+	background-color: white;
+}
+
+.pricerange {
+	padding: 10px;
+	background-color: #FF7F50;
+	height: 40px;
+}
+
+.submit {
+	display:block;
+}
+
+#review1 {
+	height: 80px;
+	width: 100%;
+}
+}

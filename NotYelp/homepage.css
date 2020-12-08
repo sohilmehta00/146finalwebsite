@@ -1,0 +1,116 @@
+body{
+	background-color: #fffdd0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.centertext{
+	text-align:center;
+}
+
+
+.titleheader{
+  text-align: center;
+  font-family: sans-serif;
+
+}
+.header {
+  background-color: #DAD870;
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+
+.topnav a.AboutUsNav{
+	float: right;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FF7F50;
+  position: relative;
+
+}
+
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  float:left;
+
+}
+
+.topnav a:hover {
+  background-color: #FFBF00;
+  color: black;
+}
+
+
+
+
+table, tr, td {
+   border: 5px solid #dddddd;
+   padding: 10px;
+   overflow: hidden; 
+   text-overflow: ellipsis; 
+   word-wrap: break-word;
+}
+
+table {
+  font-family: arial, sans-serif;
+  table-layout:fixed;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+.slideshow {
+	margin: auto;
+	width:50%; 
+	height:0px; 
+	padding-bottom: 34%; 
+	overflow:hidden; 
+	position:relative; 
+	}
+.slideshow img{ 
+position:absolute; 
+animation:slideshow 15s infinite; 
+opacity:0; 
+width: 100%; 
+height: auto;}
+
+@keyframes slideshow {25%{opacity:1;} 40%{opacity:0;}}
+.slideshow img:nth-child(3){animation-delay:0s;}
+.slideshow img:nth-child(2){animation-delay:5s;}
+.slideshow img:nth-child(1){animation-delay:10s;}

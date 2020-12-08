@@ -1,0 +1,46 @@
+h1 {
+    font-size: 53px;
+    font-family: cursive;
+    background-color: #dad870;
+}
+head{
+    background-color: #dad870;
+}
+body {
+    background-color: #fffdd0;
+}
+
+.bigtext{
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.popupmessage{
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.nav {
+	overflow: hidden;
+	background-color: #FF7F50;
+}
+
+.nav a {
+	color: white;
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.nav a.AboutUsNav {
+	float: right;
+}
+
+.nav a:hover {
+	color: black;
+  background-color: #FFBF00;
+}
